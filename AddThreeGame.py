@@ -16,10 +16,19 @@ class AddThreeGame:
         }
         self._current_state = "UNFINISHED"
         self._current_turn = 'first'
+        self.winning_numbers = []
 
     def get_current_state(self):
         """Returns current state of the game"""
         return self._current_state
+
+    def get_current_moves(self):
+        """Returns current state of the game"""
+        return self._moves['choices']
+
+    def get_current_turn(self):
+        """Returns current state of the game"""
+        return self._current_turn
 
     def check_sums(self, player):
         """Generates all possible sum combinations and checks if any 3 equal 15."""
@@ -27,7 +36,8 @@ class AddThreeGame:
             for j in range(i + 1, len(self._moves[player]) - 1):
                 for k in range(j + 1, len(self._moves[player])):
                     if self._moves[player][i] + self._moves[player][j] + self._moves[player][k] == 15:
-                        self._current_state = player.upper() + "_WON"
+                        self._current_state = player.upper() + " PLAYER WON!!!"
+                        self.winning_numbers.extend([self._moves[player][i], self._moves[player][j], self._moves[player][k]])
                         break
 
     def turn_change(self, player):
@@ -36,6 +46,18 @@ class AddThreeGame:
             self._current_turn = 'second'
         elif player == 'second':
             self._current_turn = 'first'
+
+    def check_move(self, move):
+        if self._current_state == "UNFINISHED":
+            if player == self._current_turn:  # If correct players turn
+                if move in self._moves['choices'] and move in range(1, 10):  # Move is available (on the list, in range)
+                    return "Available"
+                else:  # Move is not available
+                    return "Unavailable"
+            else:  # incorrect players turn
+                return "Unavailable"
+        else:  # Game is finished
+            return "Unavailable"
 
     def make_move(self, player, move):
         """Checks if game is unfinished, if move is available and in the correct range, and if all the moves have been
@@ -49,10 +71,35 @@ class AddThreeGame:
                     return False
                 self.check_sums(player)
                 if len(self._moves['choices']) == 0:  # Checks if the choice list is empty
-                    self._current_state = "DRAW"
+                    self._current_state = "DRAW!"
                 self.turn_change(player)
                 return True
             else:  # incorrect players turn
                 return False
         else:  # Game is finished
             return False
+print("\nWelcome to Numsum!\n")
+print("The goal is to get exactly 3 numbers that add up to 15.")
+print("When a number is chosen by one player, it becomes unavailable to the other player.\n")
+print("Good Luck!\n")
+while True:
+    game = AddThreeGame()
+    moves = game.get_current_moves()
+    while game.get_current_state() == 'UNFINISHED':
+        if game.get_current_turn() == 'first':
+            move = int(input(f"\nPlayer 1, select a number {moves}: "))
+            player = 'first'
+        elif game.get_current_turn() == 'second':
+            move = int(input(f"\nPlayer 2, select a number {moves}: "))
+            player = 'second'
+        if game.check_move(move) == 'Available':
+            game.make_move(player, move)
+        elif game.check_move(move) == 'Unavailable':
+            print("Invalid move, please select again.")
+    print("\n" + game.get_current_state())
+    print(f"Winning numbers: {game.winning_numbers}")
+    replay = input("\nPlay again?[y/n] ")
+    if replay.lower() == 'y':
+        continue
+    else:
+        break

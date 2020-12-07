@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="394c2014-afd8-479e-ab50-4a4bb8258652" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tkinter_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddThreeGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/AddThreeGame.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="2c0fc7ca-7459-4938-b453-e9517092964e" />
+  <component name="ProjectId" id="1kCFCmnW2Ejs3HkVELqQGC2BH07" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.teststuff">
+    <configuration name="AddThreeGame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project-9-nbowd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AddThreeGame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="teststuff" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project-9-nbowd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teststuff.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tkinter_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project-9-nbowd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.teststuff" />
+        <item itemvalue="Python.tkinter_test" />
+        <item itemvalue="Python.AddThreeGame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="394c2014-afd8-479e-ab50-4a4bb8258652" name="Default Changelist" comment="" />
+      <created>1605196542477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605196542477</updated>
+      <workItem from="1605196544994" duration="222000" />
+      <workItem from="1605219508870" duration="17602000" />
+      <workItem from="1605307408679" duration="1564000" />
+      <workItem from="1605560309609" duration="65000" />
+      <workItem from="1605586834913" duration="4192000" />
+      <workItem from="1605659545097" duration="1833000" />
+      <workItem from="1605931775767" duration="598000" />
+      <workItem from="1605988014289" duration="610000" />
+      <workItem from="1606072723564" duration="46000" />
+      <workItem from="1606087806169" duration="182000" />
+      <workItem from="1607035442820" duration="1256000" />
+      <workItem from="1607196882510" duration="1008000" />
+      <workItem from="1607230671460" duration="670000" />
+    </task>
+    <task id="LOCAL-00001" summary="project 9 python code">
+      <created>1605309122132</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605309122132</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project 9 python code" />
+    <option name="LAST_COMMIT_MESSAGE" value="project 9 python code" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="283" key="GridCell.Tab.0.bottom" timestamp="1607231341811">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="283" key="GridCell.Tab.0.bottom/-1920.-751.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1607197536050" />
+    <state width="1398" height="283" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1607231341811" />
+    <state width="1398" height="283" key="GridCell.Tab.0.center" timestamp="1607231341811">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="283" key="GridCell.Tab.0.center/-1920.-751.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1607197536049" />
+    <state width="1398" height="283" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1607231341811" />
+    <state width="1398" height="283" key="GridCell.Tab.0.left" timestamp="1607231341810">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="283" key="GridCell.Tab.0.left/-1920.-751.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1607197536048" />
+    <state width="1398" height="283" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1607231341810" />
+    <state width="1398" height="283" key="GridCell.Tab.0.right" timestamp="1607231341811">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="283" key="GridCell.Tab.0.right/-1920.-751.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1607197536049" />
+    <state width="1398" height="283" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1607231341811" />
+    <state width="1398" height="263" key="GridCell.Tab.1.bottom" timestamp="1605592299736">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1605592299736" />
+    <state width="1398" height="263" key="GridCell.Tab.1.center" timestamp="1605592299736">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1605592299736" />
+    <state width="1398" height="263" key="GridCell.Tab.1.left" timestamp="1605592299735">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1605592299735" />
+    <state width="1398" height="263" key="GridCell.Tab.1.right" timestamp="1605592299736">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1605592299736" />
+    <state x="320" y="173" key="Vcs.Push.Dialog.v2" timestamp="1605309124813">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="320" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1605309124813" />
+    <state x="343" y="23" width="1039" height="821" key="dock-window-1" timestamp="1605229371402">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="-1097" y="-740" width="1039" height="991" key="dock-window-1/-1920.-751.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1605220060939" />
+    <state x="343" y="23" width="1039" height="821" key="dock-window-1/0.23.1440.821@0.23.1440.821" timestamp="1605229371402" />
+    <state x="385" y="168" width="670" height="676" key="search.everywhere.popup" timestamp="1605242960599">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="385" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1605242960599" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/project_9_nbowd$teststuff.coverage" NAME="teststuff Coverage Results" MODIFIED="1607231319619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_9_nbowd$tkinter_test.coverage" NAME="tkinter_test Coverage Results" MODIFIED="1607231126252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_9_nbowd$AddThreeGame.coverage" NAME="AddThreeGame Coverage Results" MODIFIED="1607036082391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
