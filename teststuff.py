@@ -15,7 +15,7 @@ nums1 = [-1,1,2,3,5]
 target1 = 5
 nums2 = [2,7,11,15]
 target2 = 9
-nums3 = [2,3,4]
+nums3 = [2,3,44,77,666,23,55,]
 target3 = 6
 
 print(twosum(nums1, target1))
