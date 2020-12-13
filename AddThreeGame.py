@@ -16,6 +16,7 @@ class AddThreeGame:
         self._current_state = "UNFINISHED"
         self._current_turn = 'first'
         self.winning_numbers = []
+        self.game_length = 0
         # 1 6 2 8 9 3 7 5 4  sample tie game numbers for testing game states
 
     def get_current_state(self):
@@ -62,8 +63,8 @@ class AddThreeGame:
             self._moves[player].append(move)
             self._moves[player].sort()  # sorts the lists for the three point array check
             self.check_sums()  # ends loop and game here if player reaches sum of 15
-            game_length = len(self._moves['first']) + len(self._moves['second'])
-            if game_length == 9:  # Checks if all the numbers have been chosen.
+            self.game_length = len(self._moves['first']) + len(self._moves['second'])
+            if self.game_length == 9:  # Checks if all the numbers have been chosen.
                 self._current_state = "DRAW!"
             self.turn_change(player)
             return True

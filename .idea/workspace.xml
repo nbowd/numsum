@@ -201,7 +201,7 @@
       <workItem from="1607729392512" duration="5119000" />
       <workItem from="1607746107472" duration="4123000" />
       <workItem from="1607794771930" duration="18000" />
-      <workItem from="1607804132828" duration="4367000" />
+      <workItem from="1607804132828" duration="9391000" />
     </task>
     <task id="LOCAL-00001" summary="project 9 python code">
       <created>1605309122132</created>
@@ -233,26 +233,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="project 9 python code" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="283" key="GridCell.Tab.0.bottom" timestamp="1607809705266">
+    <state width="1398" height="283" key="GridCell.Tab.0.bottom" timestamp="1607818331840">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="283" key="GridCell.Tab.0.bottom/-1920.-751.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1607808343817" />
-    <state width="1398" height="283" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1607809705266" />
-    <state width="1398" height="283" key="GridCell.Tab.0.center" timestamp="1607809705266">
+    <state width="1398" height="283" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1607818331840" />
+    <state width="1398" height="283" key="GridCell.Tab.0.center" timestamp="1607818331840">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="283" key="GridCell.Tab.0.center/-1920.-751.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1607808343816" />
-    <state width="1398" height="283" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1607809705266" />
-    <state width="1398" height="283" key="GridCell.Tab.0.left" timestamp="1607809705265">
+    <state width="1398" height="283" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1607818331840" />
+    <state width="1398" height="283" key="GridCell.Tab.0.left" timestamp="1607818331839">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="283" key="GridCell.Tab.0.left/-1920.-751.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1607808343816" />
-    <state width="1398" height="283" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1607809705265" />
-    <state width="1398" height="283" key="GridCell.Tab.0.right" timestamp="1607809705266">
+    <state width="1398" height="283" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1607818331839" />
+    <state width="1398" height="283" key="GridCell.Tab.0.right" timestamp="1607818331840">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state width="1398" height="283" key="GridCell.Tab.0.right/-1920.-751.1920.1057/0.23.1440.821@0.23.1440.821" timestamp="1607808343816" />
-    <state width="1398" height="283" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1607809705266" />
+    <state width="1398" height="283" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1607818331840" />
     <state width="1398" height="263" key="GridCell.Tab.1.bottom" timestamp="1607752225440">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
@@ -285,7 +285,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/project_9_nbowd$teststuff.coverage" NAME="teststuff Coverage Results" MODIFIED="1607316679227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/project_9_nbowd$numsum_gui.coverage" NAME="numsum_gui Coverage Results" MODIFIED="1607809705255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/project_9_nbowd$numsum_gui.coverage" NAME="numsum_gui Coverage Results" MODIFIED="1607818331830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project_9_nbowd$tkinter_test.coverage" NAME="tkinter_test Coverage Results" MODIFIED="1607572575155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project_9_nbowd$AddThreeGame.coverage" NAME="AddThreeGame Coverage Results" MODIFIED="1607659122135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/project_9_nbowd$add_calculator.coverage" NAME="add_calculator Coverage Results" MODIFIED="1607572706747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
