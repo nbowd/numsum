@@ -34,13 +34,16 @@ class GuiNumsum:
         Grid.rowconfigure(self.frame, [0, 1, 2], weight=1)
         Grid.columnconfigure(self.frame, [0, 1, 2], weight=1)
 
+        # Player 1 label
         self.player_one_label = Label(self.canvas, text='Player\n 1', font=[self.font, 40],
-                                      bg=self.background_color, fg=self.text_color)  # Player 1 label
+                                      bg=self.background_color, fg=self.text_color)
         self.player_one_label.place(relx=0.01, rely=0.02)
 
+        # Player 2 label
         self.player_two_label = Label(self.canvas, text='Player\n 2', font=[self.font, 40],
-                                      bg=self.background_color, fg=self.text_color)  # Player 2 label
+                                      bg=self.background_color, fg=self.text_color)
         self.player_two_label.place(relx=0.80, rely=0.02)
+
         # A solid line that separates number pad from player labels
         self.canvas.create_line(0, 131, 800, 131, width=5, fill=self.text_color)
 
@@ -86,6 +89,7 @@ class GuiNumsum:
 
     def display_chosen_number(self, display_number):
         """Displays selected number on appropriate players side of the screen in a column."""
+
         #  Calculates space between displayed numbers by multiplying game length by 0.05, so every move increases the
         #  space by that amount. This function runs BEFORE the move is made so 1 is added to game length preemptively.
         current_game_length = (self.game.game_length + 1) * 0.05
@@ -93,6 +97,7 @@ class GuiNumsum:
             screen_number = Label(self.canvas, text=display_number, font=[self.font, 40], bg=self.background_color,
                                   fg=self.text_color)
             screen_number.place(relx=0.085, rely=(0.25+current_game_length))
+
         else:  # it is second players turn, add to right side of screen
             screen_number = Label(self.canvas, text=display_number, font=[self.font, 40],
                                   bg=self.background_color, fg=self.text_color)
@@ -169,4 +174,10 @@ class GuiNumsum:
         popup.mainloop()
 
 
-test = GuiNumsum()
+def main():
+    """Main function for when this program is run directly"""
+    game = GuiNumsum()
+
+
+if __name__ == '__main__':
+    main()
